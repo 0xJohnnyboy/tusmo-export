@@ -12,6 +12,17 @@
         "default_popup": "popup.html",
         "default_icon": "favicon.ico"
     },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.tusmo.xyz/*"
+            ],
+            "js": [
+                "inject-via-scripting.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
     "host_permissions": [
         "https://tusmo.xyz/*"
     ]

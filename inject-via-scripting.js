@@ -1,0 +1,1 @@
+chrome.runtime.sendMessage({ type: "INJECT_HOOK" });

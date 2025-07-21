@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Tusmo Export</title>
+    <script defer src="popup.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="theme.css">
+    <style>
+        html,
+        body {
+            width: 500px;
+            height: 280px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .title {
+            font-size: large;
+        }
+        .main-box {
+            padding: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w-72 h-96 flex flex-col gap-4 main-box">
+        <h3 class="title">Tusmo Export</h3>
+        <div class="flex gap-4 justify-between mb-8">
+            <button class="btn btn-accent" id="load">💾 Save current leaderboard</button>
+            <button class="btn btn-error" id="reset">⚠️ Reset saved data</button>
+        </div>
+        <p id="status"></p>
+
+        <fieldset class="fieldset">
+            <legend class="fieldset-legend">Year</legend>
+            <select id="year" class="select">
+            </select>
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend class="fieldset-legend">Month</legend>
+            <select id="month" class="select">
+            </select>
+        </fieldset>
+        <button class="btn" id="export">📥 Export CSV</button>
+    </div>
+</body>
+
+</html>
