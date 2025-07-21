@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Tusmo Export",
+    "version": "1.0",
+    "description": "Exporte le tableau des scores au format CSV",
+    "permissions": ["scripting", "activeTab"],
+    "action": {
+      "default_title": "Exporter les scores",
+      "default_icon": "favicon.ico"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
