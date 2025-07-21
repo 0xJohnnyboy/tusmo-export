@@ -12,4 +12,7 @@ Click Load unpacked and select your folder.
 
 ## Usage
 
-When the leaderboard is visible, click the extension to generate the file.
+When the leaderboard is visible, you can save data by clicking the dedicated button in the popup.
+Clicking twice won't duplicate, the issue has been handled.
+You can reset stored data at any time.
+Also you can now export by month. Date fields only show once you saved data.
