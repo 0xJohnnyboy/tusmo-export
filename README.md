@@ -1,3 +1,5 @@
+> ⚠️ Tusmo no longer exist, thus this repository becomes obsolete. Bye !
+
 # Tusmo Export
 This script extracts the leaderboard data (player names and scores) from tusmo.xyz and generates a CSV file with date and time.
 
@@ -16,3 +18,4 @@ When the leaderboard is visible, you can save data by clicking the dedicated but
 Clicking twice won't duplicate, the issue has been handled.
 You can reset stored data at any time.
 Also you can now export by month. Date fields only show once you saved data.
+
